@@ -104,5 +104,3 @@ O arquivo `teste.ts` demonstra a criação de uma fila com capacidade máxima, i
 - Criação de uma fila `PriorityQueue<string>` com capacidade máxima de 5 elementos.  
 - Inserção de elementos com prioridades Muito baixa, Normal, Alta e Muito alta.  
 - Impressão do tamanho da fila, verificação se está cheia ou vazia, visualização do próximo elemento (peek) e remoção na ordem correta de prioridade. 
-
-Você pode adaptar o arquivo `teste.ts` para criar mais cenários de teste, como tentar inserir além da capacidade, remover de uma fila vazia ou esvaziar a fila usando o método `clear`. 
