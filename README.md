@@ -4,8 +4,7 @@ Implementação de uma fila com prioridades em TypeScript, com cinco níveis de 
 
 ## Integrantes
 
-- Nome do integrante 1  
-- Nome do integrante 2 (remova se estiver fazendo individualmente)
+- Nome : Paulo Henrique Sales Lima.
 
 ## Descrição da estrutura
 
