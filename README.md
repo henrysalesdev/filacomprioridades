@@ -46,14 +46,16 @@ A `PriorityQueue<T>` oferece os seguintes métodos principais:
 
 ```text
 filaComPrioridades/
-  package.json
-  tsconfig.json
-  source/
-    PriorityQueue.ts
-    teste.ts
   dist/
     PriorityQueue.js
     teste.js
+  node_modules/
+  source/
+    PriorityQueue.ts
+    teste.ts
+  package-lock.json
+  package.json
+  tsconfig.json
 ```
 
 O TypeScript compila os arquivos da pasta `source` para a pasta `dist`, conforme configurado no `tsconfig.json`. 
