@@ -1,0 +1,31 @@
+// source/teste.ts
+
+import { PriorityQueue, PriorityLevel } from "./PriorityQueue.js";
+
+const fila = new PriorityQueue<string>(5);
+
+console.log("Fila está vazia?", fila.isEmpty());
+console.log("Tamanho inicial:", fila.size());
+
+fila.enqueue("tarefa muito baixa", PriorityLevel.MUITO_BAIXA);
+fila.enqueue("tarefa normal", PriorityLevel.NORMAL);
+fila.enqueue("tarefa muito alta", PriorityLevel.MUITO_ALTA);
+fila.enqueue("tarefa alta", PriorityLevel.ALTA);
+
+console.log("Fila está cheia?", fila.isFull());
+console.log("Tamanho após inserções:", fila.size());
+console.log("Próximo (peek):", fila.peek());
+
+console.log("Removendo:", fila.dequeue());
+console.log("Removendo:", fila.dequeue());
+console.log("Removendo:", fila.dequeue());
+console.log("Removendo:", fila.dequeue());
+
+console.log("Fila está vazia agora?", fila.isEmpty());
+console.log("Tamanho final:", fila.size());
+
+fila.enqueue("nova tarefa normal", PriorityLevel.NORMAL);
+console.log("Depois de adicionar novamente, peek:", fila.peek());
+
+fila.clear();
+console.log("Depois de clear, vazia?", fila.isEmpty());
