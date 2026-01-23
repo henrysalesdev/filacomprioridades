@@ -86,14 +86,14 @@ O TypeScript compila os arquivos da pasta `source` para a pasta `dist`, conforme
 3. Compilar o código TypeScript:
 
    ```bash
-   npm run build
+   npx tsc
    ```
    Isso irá gerar os arquivos `.js` na pasta `dist`. 
 
 4. Executar o exemplo de uso:
 
    ```bash
-   npm run start
+   node ./dist/teste.js
    ```
    O script `start` executa o arquivo `dist/teste.js`, que contém exemplos de utilização da `PriorityQueue` com diferentes prioridades. 
 
